@@ -5,15 +5,15 @@
     </div>
 </template>
 
-
 <script>
-    import store from '@/store'
+import store from '@/store'
     export default {
         name: "Info",
         store,
         data(){
             return{
-              msg: '国庆节'
+              msg: '国庆节3',
+              old: 'old year'
             }
         },
         methods:{
